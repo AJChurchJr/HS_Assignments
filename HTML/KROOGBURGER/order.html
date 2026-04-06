@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<!-- INSTRUCTIONS: Add [First/Last Name - Fall 2017 BWM 150 - Introduction] for the title of the page -->
+		<title> ORDER KROOG FOOD </title>
+		<link href="css/styles.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1 class="title">ORDER KROOG FOOD</h1>
+		
+		
+		<div class = "box">
+			<form>
+			<!-- NAME ASKED ABOUT YOU-->
+			<fieldset>
+				<legend>YOUR NAME?</legend>
+				<input type="text" name="firstname" placeholder="First Name"/>
+				<input type="text" name="middleinitial" placeholder="MI" maxlength=1 size=1/>
+				<input type="text" name="lastname" placeholder="Last Name"/>
+			</fieldset>
+			<fieldset> 
+				<legend> ABOUT YOUR ORDER </legend>
+				<input type="radio" name="order_type" value="delivery">Delivery</input>
+				<input type="radio" name="order_type" value="pickup">Pickup</input>
+				<input type="radio" name="order_type" value="reservation">Reservation</input>
+			</fieldset>
+			<!--INFORMATION ABOUT YOUR LOCATION-->
+			<fieldset>
+				<legend>DELIVERY INFORMATION</legend>
+				<input type="text" name="delivery_address" placeholder="Address (Delivery Only)"/>
+				<input type="text" name="delivery_city" placeholder="City (Delivery Only)"/>
+				<input type="text" name="delivery_state" placeholder="State/Province (Delivery Only)"/>
+				<input type="text" name="delivery_zip" placeholder="Zip (Delivery Only)" maxlength="5" minlength="5"/>
+			</fieldset>
+			<fieldset>
+				<legend>PICKUP/RESERVATION INFO</legend>
+				<label> When will you be here? </label>
+				<input type="date" name="pickup_date" placeholder=""/>
+				<br/>
+				<!-- Time Information -->
+				<input type="number" name="pickup_hour" placeholder="Hour" min="1" max="12" />
+				<input type="radio" name="pickup_ampm" value="am">AM</input>
+				<input type="radio" name="pickup_ampm" value="pm">PM</input>
+				<input type="number" name="pickup_minute" placeholder="Minute" min="0" max="60" />
+			</fieldset>
+			<!--INFORMATION ABOUT THE FOOD ORDERED-->
+			<fieldset>
+				<!-- In the future I'd like all menu items to be in a csv file instead of it being hard-coded-->
+				<legend>FOOD?</legend>
+				<label> KROOG BURGERS: </label>
+				<input type="number" name="amt_burger" min="0" max="10" value="0"/>
+				<br/>
+				<label> KROOG FRIES: </label>
+				<input type="number" name="amt_fries" min="0" max="10" value="0"/>
+				<br/>
+				<label> MAC AND KROOG: </label>
+				<input type="number" name="amt_mac" min="0" max="10" value="0"/>
+				<br/>
+				<label class="austin_hidden"> <a href="austin.html"> Austin's Leg </a>: </label>
+				<input type="number" name="amt_soup" min="0" max="1" value="0"/>
+				<br/>
+				<label> KROOG SOUP: </label>
+				<input type="number" name="amt_soup" min="0" max="10" value="0"/>
+				<br/>
+			</fieldset>
+			<fieldset>
+				<legend> FINISH UP </legend>
+				<input type="submit" value="SUBMIT"/>
+				<input type="reset" value="RESET"/>
+			</fieldset>
+			</form>
+		</div>
+		
+		<footer class = "box">
+			<h1> DESCRIPTION </h1>
+			<p> Welcome to the <strong>KRUEGER RESTAURANT MENU!!!</strong> We have lots of FUN HAPPY FUN TIME here! With our happy fun fun menu you get to try many <strong> DELICIOUS </strong> Kroog Foods(tm)!!!!! Have a happy fun yum yum time with our delicious food! Not liable for destroyed intestines. We have KroogBURGER, KroogFRY, KroogSOUP!!! Delicious happy fun fun fun fun fun fun <strong> FUN FUN FUN FUN HAPPY YAY </strong>!!! Below are NAMES and PRICES and INGREDIENTS and <strong> IMAGES </strong>!!!! Have a happy fun fun time!!! Enjoy our delicious food!</p>
+			<nav>
+				<!-- This will be used in the future for all pages on the site -->
+				<a href = "index.html"> HOME </a>
+				<a href = "order.html"> [YOU ARE HERE] </a>
+				<a href = "about.html"> ABOUT </a>
+				<a href = "contact.html"> CONTACT </a>
+				<a href = "menu.html"> MENU </a>
+			</nav>
+		</footer>
+	</body>
+</html>

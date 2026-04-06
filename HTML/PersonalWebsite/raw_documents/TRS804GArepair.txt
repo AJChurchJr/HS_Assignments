@@ -1,0 +1,22 @@
+Monday, August 12, 2024
+
+RadioShack TRS-80 Model 4 Gate-Array Repair
+Introduction
+
+THE KEYBOARD
+(THIS REPAIR WAS LIKE 4-5 YEARS AGO)
+When I first fired the computer up, and put in a disk, there was barely any input working from the computer. However when there was, multiple keys would be pressed multiple times. For example, pressing 9 would lead to something like ‘@@$ppp'.
+
+This was because the ‘Gate Array' edition of the computer contained cheaper parts. Instead of a good mechanical keyboard, this TRS-80 was cursed with a membrane keyboard. Not just any membrane keyboard! The membrane had painted circuits that conducted electricity when you pushed down on a key, which contained a metal spring. The paint sucks, the springs can misalign and fall out easily, and good god the whole thing sucks. And cleaning the board? It did nothing!
+REPLACING THE KEYBOARD
+(STILL A 5 YEAR OLD REPAIR.)
+So I decided to replace the keyboard. The Non-Gate-Array edition had a satisfying mechanical keyboard, but it was over $200 on eBay, so I had to find a better option.
+Luckily for me, Plaid Vest Software created a solution known as the NEWKEY/80, which replaced the crummy keyboard with a USB port that you could use instead.
+So, I installed the component. The instructions were easy, and made sense. It taps into the power for the floppy drives and just drops in from the keyboard power cable.
+That should be the end of it, but I need to say really quick that I was very stupid when I was first doing these repairs. I wanted the keyboard to feel authentic and fit inside the case. So, I cut the pegs that held the original keyboard in place. It was a poor fix, the keyboard still didn't fit, and now an original keyboard would struggle to stay inside. Note to self, DON'T DO DESTRUCTIVE REPAIRS. However from this I have since learned my lesson.
+
+
+
+ADDING A GOTEK
+(THIS REPAIR HAPPENED A FEW MONTHS AGO, BUT I DO NOT HAVE EXTRA PICTURES)
+This variation of 

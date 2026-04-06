@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MACINTOSH SE REPAIR</title>
+    <link href="../css/styles.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <header>
+    <h1> MACINTOSH SE GENERAL SERVICE/REPAIR</h1>
+    <nav>
+        <ul><li><a href="../index.html">HOME</a></li></ul>
+    </nav>
+    </header>
+
+    <div class = "box">
+        <h1>INITIAL ISSUES</h1>
+        <p>I purchased the computer for about $150 or so. This was worth it considering the fact it came complete with a keyboard, case, mouse, HDD, and FDD. This was pretty good considering that I was able to sell the keyboard and case alone to pay for the entire computer and make my money back.</p>
+        <p>Honestly there was nothing wrong with it spare the fact that the floppy drive needed the usual lubing, and the capacitors on the power supply needed replacing.</p>
+        <p>This will be a pretty straightforward repair. More like a servicing.</p>
+        <div class="image-row">
+            <img src="../images/macSE/front.jpeg" alt="(Picture of the Macintosh SE working)"/>
+        </div>
+    </div>
+
+    <div class = "box">
+        <h1>FLOPPY DRIVE FIX</h1>
+
+        <p>For one, the eject and inject mechanisms for the floppy drive have gotten gummy after 40 years and needed lubing and cleaning.</p>
+        <p>For two, the eject motor (the actual gears that moves the eject mechanism) has gears inside of it that have gotten frail and shattered within, which need to be replaced.</p>
+        <p>This was an easy fix, however out of the three floppy drives I tried to fix only one remained.</p>
+        <p>This was because:</p>
+        <ol>
+            <li>One of the chips on one of the floppy drives got fried and the whole drive was dead.</li>
+            <li>One of the solder joints for the eject motor got torn off and any attempts to hot-wire a fix made it worse.</li>
+        </ol>
+        <p>Fun Fact: The Macintosh 512Ke through the Macintosh SE used 800-Kilobyte floppy drives/disks, only using the much-more common 1.44-Megabyte drives/disks with the SE/30 and beyond. The drives are physically identical and share the same issues.</p>
+
+        <div class="image-row">
+            <img src="../images/macSE/drive_gears.jpeg" alt="(The gears on the drives tend to become brittle and break down like this.)"/>
+            <img src="../images/macSE/drive_group.jpeg" alt="(The three drives together. Only the one on the far right survived)"/>
+            <img src="../images/macSE/drive_solder.jpeg" alt="(One of the drives succumbed to my poor soldering job. Will not do again!)"/>
+        </div>
+    </div>
+
+    <div class = "box">
+        <h1>PSU/ANALOG BOARD RECAPPING</h1>
+
+        <p>Following the guide put on the <a href = "https://wiki.console5.com/wiki/Macintosh_SE">Console5 wiki</a>, I purchased a list of capacitors that go inside the analog board and replaced them all. </p>
+        <p>There were some issues regarding confusion about the orientation of the way the capacitors go in. </p>
+        <p>However, there were no issues, and the computer worked perfectly.</p>
+        <p>Fun note: I didn't know the PSU portion of the analog board also had to be recapped, which extended the repair time to over a week waiting for the other caps to come!</p>
+
+        <div class="image-row">
+            <img src="../images/macSE/analog_1.jpeg" alt="(Redone solder joints of the board)"/>
+            <img src="../images/macSE/analog_2.jpeg" alt="(Capacitors in the board)"/>
+        </div>
+    </div>
+
+    <div class = "box">
+        <h1>HARD DISK REPAIR</h1>
+
+        <p>The HDD (Hard Disk Drive) worked perfectly fine.</p>
+        <p>However, it was big, heavy, and bulky. </p>
+        <p>Along with that, Miniscribe-brand drives have very high failure rates and it was a miracle mine still worked.</p>
+        <p>So I took out the drive and replaced it with a BlueSCSI.</p>
+        <p>The BlueSCSI is a modern SD-card solution for old Macintoshes. You can create volumes and use them as if they were their own separate hard disks.</p>
+        <p>They also have a way lower rate of failure.</p>
+        <div class="image-row">
+            <img src="../images/macSE/bluescsi.jpeg" alt="(Image of the BlueSCSI installed in the computer. I lost the images of the HDD.)"/>
+        </div>
+    </div>
+
+    <div class = "box">
+        <h1>CONCLUSION</h1>
+
+        <p>After fixing the main issues, the computer works like new.</p>
+        <p>There is a fast hard drive that's double the speed of whatever it had previously.</p>
+        <p>The power supply is completely fixed and has no issues.</p>
+        <p>And it is able to read, format, and boot from floppy drives without issue.</p>
+        <p>Mostly everything is stock, and it is  a good working historic piece.</p>
+
+    </div>
+
+    <footer class = "box">
+        <a href="../raw_documents/MacSErepair.pages" class="download">Download the original document I typed up, with full resolution photos</a>
+    </footer>
+
+</body>
+</html>

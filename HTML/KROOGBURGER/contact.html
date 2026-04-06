@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<!-- INSTRUCTIONS: Add [First/Last Name - Fall 2017 BWM 150 - Introduction] for the title of the page -->
+		<title> BECOME A KROOG </title>
+		<link href="css/styles.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+		<h1 class="title">BECOME A KROOG</h1>
+		
+		
+		<div class = "box">
+			<form>
+			<!-- NAME ASKED ABOUT YOU-->
+			<fieldset>
+				<legend>YOUR NAME?</legend>
+				<input type="text" name="firstname" placeholder="First Name"/>
+				<input type="text" name="middleinitial" placeholder="MI" maxlength=1 size=1/>
+				<input type="text" name="lastname" placeholder="Last Name"/>
+			</fieldset>
+			<!--INFORMATION ABOUT YOUR LOCATION-->
+			<fieldset>
+				<legend>WHERE ARE YOU?</legend>
+				<input type="text" name="address" placeholder="Address"/>
+				<input type="text" name="city" placeholder="City"/>
+				<input type="text" name="state" placeholder="State/Province"/>
+				<input type="text" name="zip" placeholder="Zip" maxlength="5" minlength="5"/>
+			</fieldset>
+			<!--IDENTIFY THEFT-->
+			<fieldset>
+				<legend>MORE ABOUT YOU!</legend>
+				<label> Date of Birth: </label>
+				<input type="date" name="dob" placeholder="Date of Birth"/>
+				<br/>
+				<input type="email" name="email" placeholder="E-Mail"/>
+				<input type="password" name="ssn" placeholder="Social Security Number"/>
+				<br/>
+				<input type="text" name="info_food" placeholder="Favorite Food"/>
+				<input type="text" name="info_pet" placeholder="First Pet's Name"/>
+				<input type="text" name="info_mother" placeholder="Mother's Maiden Name"/>
+				<input type="text" name="info_word" placeholder="Favorite Word"/>
+				<br/>
+				<textarea name="info_fear" placeholder="Tell us your fears." rows="10" cols="10"></textarea>
+				<textarea name="info_pet" placeholder="Confess your sins." rows="10" cols="30"></textarea>
+				<textarea name="info_austin" placeholder="Relationship to Austin." rows="10" cols="10"></textarea>
+			</fieldset>
+			<!--INFORMATION ABOUT THE POSITION-->
+			<fieldset>
+				<legend> ABOUT THE POSITION </legend>
+				<label>Have you worked in a food environment before?</label>
+				<input type="radio" name="pos_experienced" value="yes">Yes</input>
+				<input type="radio" name="pos_experienced" value="no">No</input>
+				<br/>
+				<label>What position are you applying for?</label>
+				<select name="pos_position">
+					<option value="FRYCOOK">FRY COOK</option>
+					<option value="CASHIER">CASHIER</option>
+					<option value="DISHWASHER">DISH WASHER</option>
+					<option value="JANITOR">JANITOR</option>
+					<option value="MANAGER">MANAGER</option>
+					<option value="SALADMAKER">SALAD MAKER</option>
+					<option value="DBA">DATABASE ADMINISTRATOR</option>
+				</select>
+				<br/>
+				<label>What is your current state of employement?</label>
+				<input type="radio" name="pos_employment" value="unemployed">Unemployed</input>
+				<input type="radio" name="pos_employment" value="employed">Employed</input>
+				<input type="radio" name="pos_employment" value="homeless">Homeless</input>
+				<input type="radio" name="pos_employment" value="imprisoned">Imprisoned</input>
+				<br/>
+				<label>Are you willing to work in a fast-paced environment?</label>
+				<input type="radio" name="pos_stressful" value="yes">No</input>
+				<input type="radio" name="pos_stressful" value="no">Yes</input>
+				<br/>
+				<label> Please check all that apply </label> <br/>
+				<input type="checkbox" name="worship" value="burger">I will worsip the Burger</input><br/>
+				<input type="checkbox" name="worship" value="fries">I will worship the Fries</input><br/>
+				<input type="checkbox" name="worship" value="austin">I will worship the Austin</input><br/>
+				<input type="checkbox" name="worship" value="krueger">I will worship the Krueger</input><br/>
+				<input type="checkbox" name="worship" value="devout">I will worship Kroog Assets as long as I am employed</input><br/>
+				<input type="checkbox" name="worship" value="loyal">I will defend these assets with my life</input>
+				<br/>
+				<label>Please enter your desired hourly wage:</label>
+				<input type="number" name="pos_salary" placeholder="$$"/>
+			</fieldset>
+			<fieldset> 
+				<legend>FINISHING INFO</legend>
+				<label>YOUR RESUME: </label><input type="file" name="resume" required="required"/>
+				<br/>
+				<textarea name="comments" placeholder="Any Comments?" rows="10" cols="50"></textarea>
+				<br/>
+				<input type="submit" value="SUBMIT"></input>
+				<input type="reset" value="RESET"></input>
+			</fieldset>
+			</form>
+		</div>
+		
+		<footer class = "box">
+			<h1> DESCRIPTION </h1>
+			<p> Welcome to the <strong>KRUEGER RESTAURANT MENU!!!</strong> We have lots of FUN HAPPY FUN TIME here! With our happy fun fun menu you get to try many <strong> DELICIOUS </strong> Kroog Foods(tm)!!!!! Have a happy fun yum yum time with our delicious food! Not liable for destroyed intestines. We have KroogBURGER, KroogFRY, KroogSOUP!!! Delicious happy fun fun fun fun fun fun <strong> FUN FUN FUN FUN HAPPY YAY </strong>!!! Below are NAMES and PRICES and INGREDIENTS and <strong> IMAGES </strong>!!!! Have a happy fun fun time!!! Enjoy our delicious food!</p>
+			<nav>
+				<!-- This will be used in the future for all pages on the site -->
+				<a href = "index.html"> HOME </a>
+				<a href = "order.html"> ORDER </a>
+				<a href = "about.html"> ABOUT </a>
+				<a href = "contact.html"> [YOU ARE HERE] </a>
+				<a href = "menu.html"> MENU </a>
+			</nav>
+		</footer>
+	</body>
+</html>

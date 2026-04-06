@@ -1,0 +1,1 @@
+import sys,os ; exec ("try:choice=int(input('What number do you want a factorial of?'))\nexcept:print('input a number');sys.exit()");exec('print("No negatives allowed.");sys.exit()') if choice < 0 else None; num=choice; nextup=choice-1;exec('for i in range(choice-1): num*=(nextup);nextup-=1;print("Your final number is:",str(num)) if nextup<=0 else None')

@@ -1,0 +1,54 @@
+BEGIN PROGRAM;
+	DEFINE check_card;
+		RECIEVE INPUT THOUGH insert_1;
+		MAKE VARIABLE card_info FROM INPUT;
+		ACCESS bank_network;
+		IF card_info IN bank_network:
+			access=FALSE;
+			IF has_pin IS TRUE:
+				print("ENTER PIN");
+				RECIEVE INPUT THROUGH buttons_1;
+				MAKE VARIABLE pin_input FROM INPUT;
+				ACCESS bank_network;
+				IF bank_network card_info HAS pin_input:
+					access=TRUE;
+				IF bank_network card_info DOES NOT HAVE pin_input:
+					access=FALSE;	
+			RETURN access;
+		ELIF card_info NOT IN bank_network:
+			access=FALSE;
+			print "INVALID CARD";
+			return access;
+		END DEFINITION;
+	DEFINE transaction;
+		PRINT "Do you want to deposit or withdraw?";
+		RECIEVE INPUT THROUGH buttons_2;
+		IF deposit PRESSED:
+			MAKE VARIABLE deposit_money;
+			PRINT "put in money, then press finished when you are complete";
+			RECIEVE INPUT THROUGH insert_2;
+			ADD INPUT THROUGH insert_2 TO deposit_money;
+			WHEN buttons_2_finished BUTTON PRESSED;
+			PRINT "adding money to bank account...";
+			ACCESS bank_network card_info TO FIND account;
+			ADD deposit_money to account_balance;
+		IF withdraw PRESSED;
+			MAKE VARIABLE withdraw_money; 
+			PRINT "how much money would you like to withdraw?";
+			RECIEVE INPUT FROM buttons_1;
+			SET withdraw_money TO INPUT;
+			ACCESS bank_network card_info TO FIND account;
+			REMOVE withdraw_money from account_balance;
+			DISPENSE withdraw_money FROM OUTPUT dispenser_1;
+		PRINT "have a nice day"
+		END DEFINITION;
+	
+			
+	access = check_card;
+	if access = FALSE;
+		END PROGRAM;
+	if access=TRUE;
+		BEGIN transaction;
+	END PROGRAM;
+
+	

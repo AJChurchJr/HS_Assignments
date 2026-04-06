@@ -1,0 +1,6 @@
+﻿  binaryToDecimal.cpp
+C:\Users\ac100082\source\repos\binaryToDecimal\binaryToDecimal\binaryToDecimal.cpp(26,6): warning C4101:  'solution': unreferenced local variable
+C:\Users\ac100082\source\repos\binaryToDecimal\binaryToDecimal\binaryToDecimal.cpp(76,21): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\ac100082\source\repos\binaryToDecimal\binaryToDecimal\binaryToDecimal.cpp(71,55): warning C4101:  'octoArr': unreferenced local variable
+C:\Users\ac100082\source\repos\binaryToDecimal\binaryToDecimal\binaryToDecimal.cpp(98,21): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+  binaryToDecimal.vcxproj -> C:\Users\ac100082\source\repos\binaryToDecimal\Debug\binaryToDecimal.exe

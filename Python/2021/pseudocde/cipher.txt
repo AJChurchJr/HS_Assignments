@@ -1,0 +1,32 @@
+ANDREW CHURCH
+PROGRAM bananacipher;
+	ALLOW INPUT TO BE TAKEN;
+	SAVE input AS variable;
+	DEFINE bananacipher:
+		STRIP variable INTO INDIVIDUAL LETTERS;
+		FOR EVERY letter IN variable:
+			PUT 'banan' IN FRONT OF letter;
+			SAVE letter;
+		END LOOP;
+		FOR EVERY letter IN variable:
+			IF letter IS 'a':
+				REPLACE letter WITH 'apple';
+		END LOOP;
+		FOR EVERY letter IN variable:
+			IF letter IS 'p':
+				REPLACE letter WITH 'pear';
+		END LOOP;
+		FOR EVERY letter IN variable:
+			IF letter IS 'r':
+				REPLACE letter WITH 'raspberry';
+		END LOOP;
+		FOR EVERY letter IN variable:
+			PUT 'thiscipherisfruity' IN FRONT OF letter;
+		END LOOP;
+		FOR EVERY letter IN variable:
+			RECOMBINE LETTERS INTO WORD;
+		END LOOP; 
+		END DEFINITION;
+	PRINT WORD;
+END PROGRAM;
+	

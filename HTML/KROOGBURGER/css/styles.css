@@ -1,0 +1,146 @@
+/* 
+darkest purple / bg: 3b3888
+lighter purple / box: 5d2b77
+pinkish purple / border: 9c2971
+dark pink: D91C64
+brightest pink / scarlet / highlights: FE0F51
+*/
+
+body {
+	background-image: url("../images/bg.gif");
+}
+.austin-page {
+	background-image: url("../images/leg-slow.gif");
+}
+.austin-text {
+	color:#FFFFFF;
+}
+/* Used for the navigation pane */
+nav {
+	font-size: 200%;
+	text-align: center; 
+	border: 2px solid #FE0F51;
+	margin: 2%;
+	padding: 2%
+}
+/* used to space each asset in the navigation pane */
+nav a {
+	margin:1%;
+}
+
+/* used for the title of every page */
+.title {
+	text-align:center;
+	font-size:100px;
+
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  padding: 1%;
+  border: 10px dotted #FE0F51;
+  margin-top: 1%;
+  margin-bottom:1%;
+}
+
+/* used as a box to hold different information pieces */
+.box {
+	border : 10px solid #FE0F51;
+	background-color: #9c2971;
+	margin:10%;
+	margin-top:0%;
+	box-shadow: 10px 10px 10px 10px;
+}
+
+.box-p {
+	border : 10px solid #FE0F51;
+	background-color: #9c2971;
+	margin:2%;
+	margin-top:0%;
+	box-shadow: 10px 10px 10px 10px;
+}
+
+.history-paragraph {
+	border : 10px solid #FE0F51;
+	background-color: #9c2971;
+	margin:2%;
+	margin-top:0%;
+	box-shadow: 10px 10px 10px 10px;
+	font-size: 50px;
+	display:flex;
+}
+.history-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  padding: 1%;
+  border: 10px dotted #FE0F51;
+  margin:3%;
+}
+
+h1 {
+text-align:center;
+}
+
+blockquote {
+	text-align:left;
+	margin-right:auto;
+	font-size: 125%;
+	font-style: italic;
+}
+
+big {
+	font-weight:bold;
+	font-size:200%;
+}
+
+/* SPECIFICALLY FOR THE MENU FORM */
+.ingredients {
+	height: 50px;
+	width: 50%;
+	background-color: #3b3888;
+	font-size: 125%;
+	box-shadow: 5px 5px 5px 10px #000000;
+	color: #FE0F51;
+	border : 5px solid #FE0F51;
+	margin:50%;
+	
+}
+/* SPECIFICALLY FOR THE MENU FORM */
+.itemname {
+	text-align:left;
+	font-size:200%;
+	padding-right:25%;
+	font-weight: bold;
+	text-shadow: #000000 10px ;
+	font-style: oblique;
+	width:25%;
+	border : 10px dotted #FE0F51;
+	background-color: #9c2971;
+	margin:10%;
+	margin-top:0%;
+	box-shadow: 10px 10px 10px 10px;
+}
+/* SPECIFICALLY FOR THE MENU FORM */
+.price {
+	text-decoration-line: underline overline;
+	text-align:center;
+	font-size:150%;
+	border-left: 3px #FE0F51 solid;
+	border-right: 3px #FE0F51 solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 25%;
+}
+
+tr {
+	margin-right: 10%;
+}
+
+/*AUSTIN STUFF*/
+.austin_hidden a:link{
+	color: #9c2971;
+}

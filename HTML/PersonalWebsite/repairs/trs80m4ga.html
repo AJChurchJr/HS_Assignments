@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRS-80 M4 GA REPAIR</title>
+    <link href="../css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>TRS-80 MODEL 4 REPAIRS</h1>
+        <nav>
+            <ul><li><a href="../index.html">HOME</a></li></ul>
+        </nav>
+    </header>
+
+    <div class="box">
+        <h1>WHAT IS THE TRS-80?</h1>
+        <p>The TRS-80 was a line of microcomputers released by RadioShack's Tandy division in 1977</p>
+        <p>The TRS-80 Model I initially featured a z80 microprocessor, initially 4KB of RAM, and a huge suite of software that outpaced the Apple II at the time.</p>
+        <p>With this success, multiple other computers under the TRS-80 line released. The two important ones were the Model III and Model 4.</p>
+        <p>These models contained the same processor architecture, but far faster with dozens of times more RAM.</p>
+        <img src="../images/trs80m4ga/"></img>
+        <p class = "red">As I did repairs with this computer years ago, most of what I have to say about it is old and I do not have many images for it.</p>
+        <p class = "red">Plus I was first getting into computer science as a whole and I was <i>stupid</i>.</p>
+    </div>
+
+    
+    <div class="box">
+        <h1>INITIAL ISSUES</h1>
+        <p>This is one of the first (vintage) computers I have ever received. One of my mother's friends worked in a recycling center and retrieved this computer after I said I was interested in collecting them. I was roughly 14 or 15 at the time.</p>
+        <img src="../images/trs80m4ga/"></img>
+        <p>Upon turning it on initially, it wouldn't start. I'd hear a faint hiss of the CRT and the squeak of the old floppy drives, but it just plain wouldn't start. However, randomly, upon changing what plug I had the computer in, it powered up perfectly fine to a screen that said "Diskette?" (asking for a disk). I never really figured out why that used to happen: maybe the floppy drives pulled too much power, maybe the power supply is too old and the capacitors are dying, who knows!</p>
+        <img src="../images/trs80m4ga/"></img>
+        <p>A little while after I purchased physical floppy disks to load into the computer. <warn> Note at the time I didn't know much about floppy disks or how fragile they were.</warn> And the disks seemed to boot in that right, and they would load data from both the top and bottom floppy drive. However they grinded, and squeaked, and seemed like they were on their last legs and needed service. But I decided the better idea would be to put in a USB solution intead.</p>
+        <img src="../images/trs80m4ga/"></img>
+        <p>Once booted into an operating system, I realized the keyboard just flat didn't work. When you pressed a key, nothing would press, or 6 different keys would press. This was a common issue that I will get into later, but what you need to know now is that the keyboard will either need full-on servicing or a replacement.</p>
+    </div>
+
+    <div class = "box">
+        <h1>THE KEYBOARD</h1>
+        <p>When I first fired the computer up, and put in a disk, there was barely any input working from the computer. However when there was, multiple keys would be pressed multiple times. For example, pressing 9 would lead to something like '@@$pppp'.</p>
+        <img src="../images/trs80m4ga/"></img>
+        <p>This was because the 'Gate Array' edition of the computer contained cheaper parts. Instead of a good mechanical keyboard, this TRS-80 was cursed with a membrane keyboard. Not just any membrane keyboard! The membrane had painted circuits that conducted electricity when you pushed down on a key, which contained a metal spring. The paint sucks, the springs can misalign and fall out easily, and good god the whole thing sucks. And cleaning the board? It did nothing!</p>
+        <img src="../images/trs80m4ga/"></img>
+        <p>So I decided to replace the keyboard. The Non-Gate-Array edition had a satisfying mechanical keyboard, but it was over $200 on eBay, so I had to find a better option. Luckily for me, Plaid Vest Software created a solution known as the NEWKEY/80, which replaced the crummy keyboard with a USB port that you could use instead.</p>
+        <img src="../images/trs80m4ga/"></img>
+        <p>So, I installed the component. The instructions were easy, and made sense. It taps into the power for the floppy drives and just drops in from the keyboard power cable.</p>
+        <img src="../images/trs80m4ga/"></img>
+        <p>That should be the end of it, but I need to say really quick that I was very stupid when I was first doing these repairs. I wanted the keyboard to feel authentic and fit inside the case. So, I cut the pegs that held the original keyboard in place. It was a poor fix, the keyboard still didn't fit, and now an original keyboard would struggle to stay inside. Note to self, DON'T DO DESTRUCTIVE REPAIRS. However from this I have since learned my lesson.</p>
+        <img src="../images/trs80m4ga/"></img>
+    </div>
+
+    <div class="box">
+        <h1>ADDING A GOTEK</h1>
+        <p><warn>This repair was actually more recent as I didn't touch this computer for a while.</warn></p>
+        <p>The floppy drives, while charming and can be good for archiving old software, are loud, slow, and unreliable. When I had my second disk ruined for putting it in at the wrong time, I realized that for my own sake I should buy a floppy disk alternative.</p>
+        <img src="../images/trs80m4ga/"></img>
+        <p>The Gotek line of perhipherals solve this issue. It goes in place of an old floppy drive, using the same connectors and all, and mounts "disk files" instead of actual disks. Therefore you just need to plug in a thumb drive with some of those files on them and load them in! Of course this varies based off the computer you're using and the disk controller modes and yada yada yada, but all I had to do was put in a jumper pin to fix that problem.</p>
+        <img src="../images/trs80m4ga/"></img>
+        <p>I'd done this twice before, so I thought it would be quite straightforward. However, for some reason this was far more difficult than my Compaq Portable III and my TRS-80 Model 4P. <warn>For reference I have a similar computer, known as the model 4 "portable" that works perfectly so I used it as a test machine to see if something should work or not.</warn> Booting off of a known working test image, it gave repeated errors running any command saying "SYS" error.</p>
+        <p>This turned out to be another issue similar to the keyboard; the gate-array model has a <i>faulty</i> cable that isn't compatible with the gotek due to the fact that the gotek could run disk files as "double sided" when the original disk cable was only wired for single sided drives. So I specially ordered a new one! Replacing it was rather easy (image below) and ... it didn't work. Buut I told the guy and he ordered a new one and ... [wait for cable to come].</p>
+    </div>
+
+    <div class="box">
+        <h2>SIDE THING -- RAM</h2>
+        <p>Initially once I got everything to work with the gotek I was getting "memory fault" errors trying to run any program that used a large amount of RAM.</p>
+        <p>Running a RAM test program overnight didn't show any faults. So I just had to reseat every ram module to see what worked and what didn't.</p>
+        <p>I never got to figure out what module of RAM actually wasn't working, because reaseating the ram fixed the issue.xm</p>
+        <img src="../images/trs80m4ga/"></img>
+    </div>
+
+    <div class = "box">
+        <h1>POWER SUPPLY RECAPPING</h1>
+        <p>BEFORE</p>
+        <div class="image-row">
+            <img src="../images/trs80m4ga/"></img>
+            </div>
+        <p>AFTER</p>
+        <div class="image-row">
+            <img src="../images/trs80m4ga/"></img>
+            </div>
+    </div>
+
+    <div class="box">
+        <h1>CONCLUSION</h1>
+        <p>
+            Well I took a computer with a bad keyboard, inconvenient floppy drive, and old power supply and replaced it all.
+        </p>
+        <p>
+            Hooray.
+        </p>
+    </div>
+</body>
+</html>

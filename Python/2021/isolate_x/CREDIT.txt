@@ -1,0 +1,3 @@
+PSEUDOCODE: JOSEPH HUBER (with Andrew Church giving tips)
+FLOCHARTING: JOSEPH HUBER (with Andrew Church giving tips)
+CODE: ANDREW CHURCH (with Joseph Huber giving tips)

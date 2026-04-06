@@ -1,0 +1,8 @@
+There is an error with this file!
+
+Basically, if your password data file is longer than 1 key, the file corrupts.
+
+I hope to fix this, but for now it's screwed.
+
+I'm gonna try to use .pickle files in the next passbook version
+
