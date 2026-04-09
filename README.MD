@@ -1,6 +1,6 @@
 # WELCOME TO HIGH SCHOOL!!
 
-Six years ago now, I went into ninth grade. I'd went to a vocational school in place of my electives in high school. This course was Computer Information Science, which I stayed in for four years. I kind of regret taking the course; it did not get me anything industry-certified. Instead, it only gave me what would count as 4 years of "experience". However, I now have a pretty long list of programs that show my progression over the years. The games I made like YUP and Krueger Clicker near the tail end of these, which show that I got better with larger-scale projects.
+Six years ago now, I went into ninth grade. I'd went to a vocational school in place of my electives in high school. This course was Computer Information Science, which I stayed in for four years. I now have a pretty long list of programs that show my progression over the years. The games I made like YUP and Krueger Clicker near the tail end of these, which show that I got better with larger-scale projects.
 
 ## WHAT IS HERE?
 
